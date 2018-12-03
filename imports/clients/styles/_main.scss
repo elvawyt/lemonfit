@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    background: #348cb2 url('bg.jpg') bottom left;
+    background-repeat: repeat-x;
+    color:#555555; // font color
+    font-family:Helvetica, Arial, sans-serif; 
+    font-size: 1.6rem;
+    height: 100%;
+    opacity: 0.8;
+    top: 0;
+
+   
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-weight: 300;
+    font-size: 2.4rem;
+
+}
+
+
+@import './components/wrapper';
+@import './components/title-ar';
+@import './components/item';
+@import './components/button';
+@import './components/calculate';
+@import './components/convert';
+@import './components/itemlist';
+@import './components/login';
+@import './components/record';
+@import './components/dropdown';
