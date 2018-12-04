@@ -58,7 +58,8 @@ export default class Converter extends React.Component{
     }
     render() {
         return(
-            <div>          
+            <div> 
+                      
                 <input className="convertInput" type = "text" value={this.state.leftval}
                     onChange ={this.handleLeftChange}
                     placeholder = {this.props.left}/>

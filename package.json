@@ -15,6 +15,7 @@
     "chai": "^4.2.0",
     "chart.js": "^1.1.1",
     "echarts": "^4.2.0-rc.2",
+    "expect": "^23.6.0",
     "i": "^0.3.6",
     "meteor-node-stubs": "^0.3.2",
     "npm": "^6.4.1",
@@ -32,7 +33,10 @@
   },
   "devDependencies": {
     "enzyme": "^3.7.0",
+    "enzyme-adapter-react-15": "^1.2.0",
     "enzyme-adapter-react-16": "^1.7.0",
-    "jasmine": "^3.3.0"
+    "jasmine": "^3.3.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^15.6.2"
   }
 }
