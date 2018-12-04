@@ -22,3 +22,7 @@ fourseven:scss
 accounts-password
 deanius:debug-ddp
 ultimatejs:tracker-react
+meteortesting:mocha
+dburles:factory
+sanjo:jasmine
+velocity:html-reporter
