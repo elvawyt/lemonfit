@@ -21,8 +21,12 @@ export default class MainPanel extends React.Component{
         return (
             <div className = "outter">
                 <div className="converterList">
+                <div className = "counvertkg2lb">
                     {this.renderConverter(0, "kg", "lb")}
+                </div>
+                <div className = "convertcm2inch">
                     {this.renderConverter(1, "cm", "inch")}
+                </div>
                 </div>
                 <br/>
                 <br/>

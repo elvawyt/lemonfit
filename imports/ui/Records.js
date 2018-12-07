@@ -122,6 +122,8 @@ export default class Records extends TrackerReact(React.Component){
                     <div>
                         {desc+"  @  "}
                         {time}
+                        {/* <button className="button" onClick = {() =>{Posts.remove({_id:this._id});}}>X</button> */}
+                        
                     </div>
                     {icon}
                 </p>

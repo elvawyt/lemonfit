@@ -78,24 +78,24 @@ export default class Calculator extends React.Component{
                             <b><text>Input your information to get you BMI and BMR: </text></b>
                             <p>
                                 <label>Weight(kg): </label>
-                                <input type = "text" name = "weight"  placeholder = "" onChange ={this.handleWeightChange}/>
+                                <input type = "text" id = "weight" name = "weight"  placeholder = "" value={this.state.weight} onChange ={this.handleWeightChange}/>
                             </p>  
                             <p>
                                 <label>Height(cm): </label>
-                                <input type = "text" name = "height" placeholder = "" onChange ={this.handleHeightChange}/>
+                                <input type = "text" id = "height" name = "height" placeholder = "" onChange ={this.handleHeightChange}/>
                             </p>  
                             <p>
                                 <label>Age(years): </label>
-                                <input type = "text" name = "age" placeholder = "" onChange ={this.handleAgeChange}/>
+                                <input type = "text" id = "age" name = "age" placeholder = "" onChange ={this.handleAgeChange}/>
                             </p>
                             <p>
                                 <label>Gender: </label>
-                                <input type = "radio" name = "gender" onChange={this.handleMaleChange}
+                                <input type = "radio" id = "gender" name = "gender" onChange={this.handleMaleChange}
                                     defaultChecked={this.state.gender === "male"} /> male     
-                                <input type = "radio" name = "gender" onChange={this.handleFemaleChange}
+                                <input type = "radio" id = "gender" name = "gender" onChange={this.handleFemaleChange}
                                     defaultChecked={this.state.gender != "male"} /> female
                             </p>
-                            <input type="button" value="Submit" onClick={this.handleSubmit}/>  
+                            <input className = "submitbutton" id = "button" type="button" value="Submit" onClick={this.handleSubmit}/>  
                             <input type="reset" value="Clear" />
                         </div>
                     </form>
