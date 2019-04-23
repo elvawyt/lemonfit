@@ -12,11 +12,13 @@ export default class Signup extends React.Component{
         };
     }
     onSubmit(e){
+        console.log(email);
         e.preventDefault();
         let email = this.refs.email.value.trim();
         let password = this.refs.password.value.trim();
-        let username = "Peggy";
-        Accounts.createUser({username: username, email: email, password: password},(err)=>{
+        console.log(email);
+        // let username = "Peggy";
+        Accounts.createUser({email: email, password: password},(err)=>{
             console.log('Signup callback',err);
         });
         
